@@ -1,0 +1,38 @@
+{
+    "name": "havefnubb/hfnurates-module",
+    "type": "jelix-module",
+    "description": "Jelix module allowing to rate some data like news or products",
+    "keywords": ["admin", "module", "jelix", "rates"],
+    "license": "LGPL-2.1-only",
+    "authors": [
+        {
+            "name": "FoxMask",
+            "email": "foxmask@foxmask.net",
+            "homepage": "http://foxmask.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Laurent Jouanneau",
+            "email": "laurent@jelix.org",
+            "homepage": "https://jelix.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "archive": {
+        "exclude": ["/test"]
+    },
+    "extra": {
+        "jelix" : {
+            "modules" : [
+                "hfnurates/"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.4.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
