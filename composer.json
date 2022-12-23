@@ -2,7 +2,7 @@
     "name": "havefnubb/hfnurates-module",
     "type": "jelix-module",
     "description": "Jelix module allowing to rate some data like news or products",
-    "keywords": ["admin", "module", "jelix", "rates"],
+    "keywords": ["module", "jelix", "rates"],
     "license": "LGPL-2.1-only",
     "authors": [
         {
